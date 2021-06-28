@@ -8,7 +8,7 @@
     Importer le premier compte de Ganache a partir de la cle privee (cliquer sur la cle a cote du compte dans Ganache) et le selectionner  
   
   
-3.**DŽploiement des Smart Contracts:**  
+3.**Deploiement des Smart Contracts:**  
 `cd ~/ENSAO_CONTRACT/smart-contract`  
 `truffle migrate --network development`  
 `truffle migrate --network development --reset`  
