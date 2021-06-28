@@ -18,4 +18,4 @@
 `cd ~/ENSAO_CONTRACT/front`  
 `npm run serve`  
     
-Ouvrir la page[http://localhost:8080](http://localhost:8080).  
+Ouvrir la page : [http://localhost:8080](http://localhost:8080).  
