@@ -1,0 +1,19 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Charles-Henry Vagner",
+  "license": "Apache-2.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.6",
+    "truffle": "5.0.2",
+    "truffle-contract": "3.0.6"
+  }
+}
