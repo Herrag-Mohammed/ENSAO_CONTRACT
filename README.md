@@ -4,7 +4,7 @@
   
   
 2.**Configuration Metamask:**  
-    Configurer et choisir le réseau "development" : HTTP://127.0.0.1:7545  
+    Configurer et choisir le r\éseau "development" : HTTP://127.0.0.1:7545  
     Importer le premier compte de Ganache à partir de la clé privée (cliquer sur la clé à côté du compte dans Ganache) et le sélectionner  
   
   
