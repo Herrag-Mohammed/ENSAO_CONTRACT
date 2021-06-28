@@ -5,7 +5,7 @@
   
 2.**Configuration Metamask:**  
     Configurer et choisir le reseau "development" : HTTP://127.0.0.1:7545  
-    Importer le premier compte de Ganache à partir de la clé privée (cliquer sur la cle à cote du compte dans Ganache) et le selectionner  
+    Importer le premier compte de Ganache a partir de la cle privee (cliquer sur la cle a cote du compte dans Ganache) et le selectionner  
   
   
 3.**Déploiement des Smart Contracts:**  
