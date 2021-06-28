@@ -1,11 +1,11 @@
 1.**Installation des outils:**  
-    truffle est nécessaire pour la suite :  
+    truffle est necessaire pour la suite :  
     `npm install -g truffle`
   
   
 2.**Configuration Metamask:**  
-    Configurer et choisir le r\éseau "development" : HTTP://127.0.0.1:7545  
-    Importer le premier compte de Ganache à partir de la clé privée (cliquer sur la clé à côté du compte dans Ganache) et le sélectionner  
+    Configurer et choisir le reseau "development" : HTTP://127.0.0.1:7545  
+    Importer le premier compte de Ganache à partir de la clé privée (cliquer sur la cle à cote du compte dans Ganache) et le selectionner  
   
   
 3.**Déploiement des Smart Contracts:**  
