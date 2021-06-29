@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <div class="tile2">
+      <b-card class="img1">
+        <a href="http://ensao.ump.ma/" target="_blank" rel="noopener"><img class="logo" alt="ATOL Blckchn Ant Prover" src="./assets/ensao.png">
+        </a>
+        <a href="http://ensao.ump.ma/" target="_blank" rel="noopener"><img class="logo1" alt="ATOL Blckchn Ant Prover" src="./assets/ensao_contract.png"></a>
+      </b-card>
+    </div>
     <h1>ENSAO_CONTRACT</h1>
     <button style="position: fixed;top: 1px;right: 1px;" v-on:click="help">&nbsp;<i class="icon-info-sign"></i>&nbsp;</button>
     <div class="summary">
@@ -16,15 +23,15 @@
       </p>
     </div>
     <Upload class="tile"/>
+    <br />
     <Events class="tile"/>
+    <br />
     <Check class="tile clear-left"/>
+    <br />
     <List class="tile"/>
     <Status class="tile clear-left"/>
-    <div class="tile">
-      <b-card>
-        <a href="http://ensao.ump.ma/" target="_blank" rel="noopener"><img class="logo" alt="ATOL Blckchn Ant Prover" src="./assets/ensao.png"></a>
-      </b-card>
-    </div>
+    <br />
+    
   </div>
 </template>
 
@@ -116,7 +123,7 @@ export default {
 <style>
 body::after {
   content: "";
-  background: url('./assets/Pattern-Randomized.svg') no-repeat center center;
+  background: linear-gradient(0.25turn, #7e90a8, #fafafa,#fafafa, #7e90a8 );
   background-size:cover;
   opacity: .9;
   top: 0;
@@ -127,12 +134,24 @@ body::after {
   z-index: -1;
 }
 
+
+
+
 #app {
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin: 10px;
+  padding-top:20px;
+}
+.img1 {
+  display: flex;
+}
+.tt {
+  width:1px;
+  height:90px;
+  border: solid 2px black;
 }
 
 h1 {
@@ -140,19 +159,25 @@ h1 {
   font-size: 2rem;
   text-align: center;
   color: #FF800D;
+  padding-top:20px;
 }
 
 .summary {
   text-align: center;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  color: #FFFFFF;
+  margin: 3em 7em;
+  color: #000000;
 }
 .summary p a{
   color: #FF800D;
 }
 .logo {
   max-height: 5em;
+}
+.logo1 {
+  max-height: 5em;
+  border-left:1px solid black;
+  padding-left:120px;
+  margin-left:15px;
 }
 
 .card-text {
@@ -162,9 +187,16 @@ h1 {
 
 .tile {
   border-radius: 0;
-  padding: 10px;
-  max-width: 900px;
-  float: left;
+  padding: 10px 20% 10px 20%;
+  float: center;
+}
+.tile2 {
+  border-radius: 0;
+  width: 760px;
+  margin: 10px 23% 10px 23%;
+
+
+
 }
 .clear-left {
   clear: left;

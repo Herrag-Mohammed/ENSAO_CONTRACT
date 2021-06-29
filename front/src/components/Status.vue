@@ -23,7 +23,6 @@
           <li class="error">Veuillez installer et configurer <a target="_blank" rel="noopener" href="https://metamask.io/">Metamask</a> !</li>
         </ul>
       </div>
-      <div class="networks">Réseaux gérés : Ropsten (3), Goerli (5), Kovan (42)</div>
      </b-card>
   </div>
 </template>

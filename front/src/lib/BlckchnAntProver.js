@@ -1,6 +1,5 @@
 import Web3 from 'web3'
 import jsSHA from 'jssha'
-
 // TODO Améliorer ce référencement
 import compiledBlckchnAntProver from '../../../smart_contract/build/contracts/AntProver.json'
 const contractAbi = compiledBlckchnAntProver.abi
